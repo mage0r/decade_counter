@@ -1,0 +1,175 @@
+PCBNEW-LibModule-V1  30/04/2014 6:13:46 PM
+# encoding utf-8
+Units mm
+$INDEX
+Rail
+SOIC8_W
+holes
+position
+ws2812b
+$EndINDEX
+$MODULE Rail
+Po 0 0 0 15 53495EF9 00000000 ~~
+Li Rail
+Sc 0
+AR /5337E9AF
+Op 0 0 0
+T0 -21.3 2.2 1 1 0 0.15 N I 21 N "P12"
+T1 -26.3 3.1 1 1 0 0.15 N I 21 N "Rail"
+$PAD
+Sh "1" C 14 14 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -23.8 3
+$EndPAD
+$EndMODULE Rail
+$MODULE SOIC8_W
+Po 0 0 0 15 5360AB45 00000000 ~~
+Li SOIC8_W
+Cd SOIC8_W
+Kw SOIC8_W
+Sc 0
+AR /53365577
+Op 0 0 0
+T0 0 -1.5 0.6 0.6 0 0.15 N V 21 N "IC2"
+T1 0 0.8 0.6 0.6 0 0.15 N V 21 N "ATTINY85"
+DC -1.8 1.8 -1.5 1.9 0.15 21
+DS -2.4 2.7 2.6 2.7 0.15 21
+DS 2.6 2.7 2.6 -2.5 0.15 21
+DS 2.6 -2.5 -2.4 -2.5 0.15 21
+DS -2.4 -2.5 -2.4 2.7 0.15 21
+$PAD
+Sh "5" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "N-000009"
+Po 1.94 -3.3
+$EndPAD
+$PAD
+Sh "6" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "N-000008"
+Po 0.67 -3.3
+$EndPAD
+$PAD
+Sh "7" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-0000011"
+Po -0.6 -3.3
+$EndPAD
+$PAD
+Sh "8" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V"
+Po -1.87 -3.3
+$EndPAD
+$PAD
+Sh "1" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-0000010"
+Po -1.87 3.5
+$EndPAD
+$PAD
+Sh "2" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-0000018"
+Po -0.6 3.5
+$EndPAD
+$PAD
+Sh "3" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "N-0000017"
+Po 0.67 3.5
+$EndPAD
+$PAD
+Sh "4" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 1.94 3.5
+$EndPAD
+$EndMODULE SOIC8_W
+$MODULE holes
+Po 0 0 0 15 53495A81 00000000 ~~
+Li holes
+Sc 0
+AR 
+Op 0 0 0
+T0 2.2 1.9 1 1 0 0.15 N V 21 N "holes"
+T1 -1.8 -1.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.64 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE holes
+$MODULE position
+Po 0 0 0 15 53495E30 00000000 ~~
+Li position
+Sc 0
+AR 
+Op 0 0 0
+T0 -2.1 -1.9 0.4 0.4 0 0.1 N I 21 N "position"
+T1 2.1 -1.9 0.4 0.4 0 0.1 N I 21 N "VAL**"
+$PAD
+Sh "1" T 5 2.54 0 -0.6 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE position
+$MODULE ws2812b
+Po 0 0 0 15 5342B424 00000000 ~~
+Li ws2812b
+Cd ws2812b
+Kw ws2812b
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1 1 0 0.15 N V 21 N "ws2812b"
+T1 0 3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS 2 2.5 2.5 2.1 0.15 21
+DS -2.5 2.5 -2.5 -2.5 0.15 21
+DS -2.5 -2.5 2.5 -2.5 0.15 21
+DS 2.5 -2.5 2.5 2.5 0.15 21
+DS 2.5 2.5 -2.5 2.5 0.15 21
+$PAD
+Sh "1" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.45 -1.85
+$EndPAD
+$PAD
+Sh "2" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.45 1.85
+$EndPAD
+$PAD
+Sh "3" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 1.85
+$EndPAD
+$PAD
+Sh "4" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 -1.85
+$EndPAD
+$EndMODULE ws2812b
+$EndLIBRARY
