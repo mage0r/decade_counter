@@ -11,7 +11,7 @@ The neopixel was included to hopefully shine some rgb light out the viewing wind
 
 ![decade_counter](https://raw2.github.com/mage0r/decade_counter/master/Photos/2014-04-24%2021.16.53.jpg)
 
-![decade_counter](https://raw2.github.com/mage0r/decade_counter/master/Photos/2014-05-25.%2014.48.05jpg)
+![decade_counter](https://raw2.github.com/mage0r/decade_counter/master/Photos/2014-05-25%2014.48.05jpg)
 
 CREDITS
 ------------
